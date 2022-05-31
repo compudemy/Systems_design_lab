@@ -32,12 +32,18 @@ The technologies involved are :
 * **Helm** for building charts or deployment templates
 * **Argo CD, Jenkins** … to automate the deployments.
 
+
  In DevOps there is a need to move from the **Monolith Approach** to the **Micro Services Approach**. 
  - The Monolith approach considers the system with its sub systems to be part of a single resource supplier
  - The Micro service approach isolates each functionality to make it stand as a service feeding on its own resources
 
 
+# 4. Systems design processes 
 
+*Stakeholders expectations
+*Requirements definition
+*Logical decomposition 
+*Design solution definition
 
 
 
