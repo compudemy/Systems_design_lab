@@ -34,7 +34,7 @@ The technologies involved are :
 
 
  In DevOps there is a need to move from the **Monolith Approach** to the **Micro Services Approach**. 
- - The Monolith approach considers the system with its sub systems to be part of a single resource supplier
+ - The Monolith approach considers the system with its sub systems to be part of a single resource supplier.
  In a monolithic design, application tiers can be described as:
 part of the same unit
 managed in a single repository
@@ -43,7 +43,7 @@ developed in one programming language
 released using a single binary
 ![image](monolith.png)
 
- - The Micro service approach isolates each functionality to make it stand as a service feeding on its own resources
+ - The Micro service approach isolates each functionality to make it stand as a service feeding on its own resources.
 In a microservice design, application tiers are managed independently, as different units. Each unit has the following characteristics:
 managed in a separate repository
 own allocated resources (e.g. CPU and memory)
