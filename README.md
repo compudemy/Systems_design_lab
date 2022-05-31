@@ -18,7 +18,7 @@ Systems Design is a stage or component in any System Development Life Cycle (SDL
 Most SDLC obey the following structure :
   * System development strategies
   * System specification
-  * System design
+  * **System design**
   * Decision support
   * System verification and validation
   * System deployment, operations, and support
