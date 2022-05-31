@@ -40,10 +40,10 @@ The technologies involved are :
 
 # 4. Systems design processes 
 
-*Stakeholders expectations
-*Requirements definition
-*Logical decomposition 
-*Design solution definition
+* Stakeholders expectations
+* Requirements definition
+* Logical decomposition 
+* Design solution definition
 
 
 
