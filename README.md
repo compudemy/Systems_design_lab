@@ -23,6 +23,17 @@ Most SDLC obey the following structure :
   * System verification and validation
   * System deployment, operations, and support
 
+# 3. Systems design in DevOps 
+Designing system in DevOps involves a number of technologies called in a precise order. 
+The purpose is to build scalable, reliable and maintainable systems.
+The technologies involved are : 
+* **Docker** to containerize our systems
+* **Kubernetes** for containers orchestration
+* **Helm** for building charts or deployment templates
+* **Argo CD, Jenkins** … to automate the deployments.
+
+
+
 
 
 
