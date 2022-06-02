@@ -71,7 +71,7 @@ We are asked to design a payment and reservation system for parking garages that
    * Data scheme
    * Solution architecture
 
-### Requirements gathering
+### REQUIREMENTS GATHERING
 With flat rate based on vehicle type and time
 
 Note: if you've been told to design this type of system without any other requirements, the rate and special parking, is something you should ask about.
