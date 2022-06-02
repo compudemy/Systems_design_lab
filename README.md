@@ -128,14 +128,19 @@ Given that, users scale is pretty predictable and can't reach unexpected count (
 * Payment and Reservation System for Parking Garages - Data Scheme
 
 SQL based database with the following tables
+
 - Reservations
 ![image](reservations.png)
+
 - Garages 
 ![image](garages.png)
+
 - Spots
 ![image](spots.png)
+
 - Users 
 ![image](users.png)
+
 - Vehicles 
 ![image](vehicles.png)
 
