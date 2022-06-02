@@ -130,18 +130,23 @@ Given that, users scale is pretty predictable and can't reach unexpected count (
 SQL based database with the following tables
 
 - Reservations
+
 ![image](reservations.png)
 
 - Garages 
+
 ![image](garages.png)
 
 - Spots
+
 ![image](spots.png)
 
 - Users 
+
 ![image](users.png)
 
 - Vehicles 
+
 ![image](vehicles.png)
 
 
