@@ -130,5 +130,11 @@ SQL based database with the following tables
 Reservations
 
 
+* Payment and Reservation System for parking garages - High level architecture
+
+![image](high_level_architecture.png)
+
+
+
 
 
