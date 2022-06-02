@@ -68,6 +68,7 @@ We are asked to design a payment and reservation system for parking garages that
    * Requirements
    * API endpoints (public and internal)
    * Data scheme
+   * Solution architecture
 
 ### Requirements gathering
 With flat rate based on vehicle type and time
