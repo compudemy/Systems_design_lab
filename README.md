@@ -90,6 +90,8 @@ Ask clarifying questions such as:
     User can't reserve a parking spot reserved by someone else
     System to support the following types of vehicles: regular, large and compact
     System to support flat rate based on vehicle type and time the vehicle spent in the parking
+    
+### API ENDPOINTS
 
 * Payment and Reservation System for Parking Garages - API (Public Endpoints)
 
@@ -134,6 +136,8 @@ Ask clarifying questions such as:
 We can assume that the number of users is limited to the number of parking spots in each garage and taking into account the number of garages of course.
 Given that, users scale is pretty predictable and can't reach unexpected count (assuming no new garages can be added or fixed rate of new garages being added)
 
+### DATA SCHEME
+
 * Payment and Reservation System for Parking Garages - Data Scheme
 
 SQL based database with the following tables
@@ -158,6 +162,7 @@ SQL based database with the following tables
 
 ![image](vehicles.png)
 
+### SOLUTION ARCHITECTURE
 
 * Payment and Reservation System for parking garages - High level architecture
 
