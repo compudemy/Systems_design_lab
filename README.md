@@ -94,31 +94,39 @@ Ask clarifying questions such as:
 * Payment and Reservation System for Parking Garages - API (Public Endpoints)
 
     /reserve
+    
         Parameters: garage_id, start_time, end_time
         Returns: (spot_id, reservation_id)
 
     /cancel
+    
         Parameters: reservation_id
 
     /payment
+    
         Parameters: reservation_id
         Use existing API like Squre, PayPal, Stripe, etc.
 
 * Payment and Reservation System for Parking Garages - API (Internal Endpoints)
 
     /calculate_payment - calculate the payment for reserving a parking spot
+    
         Parameters: reservation_id
 
     /free_spots - get free spots where the car can park (note: small car might be able to park in bigger car spot)
+    
         Parameters: garage_id, vehicle_type, time
 
     /allocate_spot - do the actual reservation of a parking spot
+    
         Parameters: garage_id, vehicle_type, time
 
     /create_account - the ability to create an account so users can use the app and reserve parking spots
+    
         Parameters: email, username, first_name (optional), last_name (optional), password (optional)
 
     /login
+    
         Parameters: email, username (optional), password
 
 * Payment and Reservation System for Parking Garages - Scale
