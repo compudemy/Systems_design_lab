@@ -62,7 +62,72 @@ released using its own binary
 
 ![image](processes.png)
 
+# Practical lab on System Design
+We are asked to design a payment and reservation system for parking garages that supports three type of vehicles (regular, large and compact). For this application we are going to mention its:
 
+   * Requirements
+   * API endpoints (public and internal)
+   * Data scheme
+
+### Requirements gathering
+With flat rate based on vehicle type and time
+
+Note: if you've been told to design this type of system without any other requirements, the rate and special parking, is something you should ask about.
+Payment and Reservation System for Parking Garages - Clarifications
+
+Ask clarifying questions such as:
+
+    - Who are the users and how they are going to use the system?
+    - What inputs and outputs should the system support?
+    - How much data do we expect the system to handle?
+        - How many requests per second?
+
+* Payment and Reservation System for Parking Garages - Requirements
+
+    User to be able to reserve a parking spot and receive a ticket
+    User can't reserve a parking spot reserved by someone else
+    System to support the following types of vehicles: regular, large and compact
+    System to support flat rate based on vehicle type and time the vehicle spent in the parking
+
+* Payment and Reservation System for Parking Garages - API (Public Endpoints)
+
+    /reserve
+        Parameters: garage_id, start_time, end_time
+        Returns: (spot_id, reservation_id)
+
+    /cancel
+        Parameters: reservation_id
+
+    /payment
+        Parameters: reservation_id
+        Use existing API like Squre, PayPal, Stripe, etc.
+
+* Payment and Reservation System for Parking Garages - API (Internal Endpoints)
+
+    /calculate_payment - calculate the payment for reserving a parking spot
+        Parameters: reservation_id
+
+    /free_spots - get free spots where the car can park (note: small car might be able to park in bigger car spot)
+        Parameters: garage_id, vehicle_type, time
+
+    /allocate_spot - do the actual reservation of a parking spot
+        Parameters: garage_id, vehicle_type, time
+
+    /create_account - the ability to create an account so users can use the app and reserve parking spots
+        Parameters: email, username, first_name (optional), last_name (optional), password (optional)
+
+    /login
+        Parameters: email, username (optional), password
+
+* Payment and Reservation System for Parking Garages - Scale
+
+We can assume that the number of users is limited to the number of parking spots in each garage and taking into account the number of garages of course.
+Given that, users scale is pretty predictable and can't reach unexpected count (assuming no new garages can be added or fixed rate of new garages being added)
+
+* Payment and Reservation System for Parking Garages - Data Scheme
+
+SQL based database with the following tables
+Reservations
 
 
 
