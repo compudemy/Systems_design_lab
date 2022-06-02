@@ -5,6 +5,7 @@ We are going to design a system in lab session
 #### Crucial for DevOps implementation
 #### The four design processes
 #### A phase of the SDLC 
+#### Practical lab on system design
 
 # 1. Definition 
 Systems design is the process of defining elements of a system like modules, architecture, components and their interfaces and data for a system based on the specified requirements.
