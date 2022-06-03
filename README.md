@@ -75,6 +75,7 @@ We are asked to design a payment and reservation system for parking garages that
 With flat rate based on vehicle type and time
 
 Note: if you've been told to design this type of system without any other requirements, the rate and special parking, is something you should ask about.
+
 Payment and Reservation System for Parking Garages - Clarifications
 
 Ask clarifying questions such as:
@@ -86,10 +87,13 @@ Ask clarifying questions such as:
 
 * Payment and Reservation System for Parking Garages - Requirements
 
-    User to be able to reserve a parking spot and receive a ticket
-    User can't reserve a parking spot reserved by someone else
-    System to support the following types of vehicles: regular, large and compact
-    System to support flat rate based on vehicle type and time the vehicle spent in the parking
+    User to be able to reserve a parking spot and receive a ticket,
+    
+    User can't reserve a parking spot reserved by someone else,
+    
+    System to support the following types of vehicles: regular, large and compact ...
+    
+    System to support flat rate based on vehicle type and time the vehicle spent in the parking.
     
 ### API ENDPOINTS
 
