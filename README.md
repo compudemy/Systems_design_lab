@@ -76,7 +76,7 @@ With flat rate based on vehicle type and time
 
 Note: if you've been told to design this type of system without any other requirements, the rate and special parking, is something you should ask about.
 
-Payment and Reservation System for Parking Garages - Clarifications
+* Payment and Reservation System for Parking Garages - Clarifications
 
 Ask clarifying questions such as:
 
